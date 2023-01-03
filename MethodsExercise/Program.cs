@@ -14,11 +14,11 @@
         {
             int sum = 0;
 
-            for(int i = 0; i< list.length; i++)
+            for(int i = 0; i< list.Length; i++)
             {
                 sum = sum + list[i];
             }
-            
+
             return sum; 
         }
         static void Main(string[] args)
