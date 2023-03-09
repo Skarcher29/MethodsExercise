@@ -27,16 +27,16 @@
             Console.WriteLine("----------------");
             Console.WriteLine(" ");
             Console.WriteLine("What is your name?");
-            string userName = Console.ReadLine();
+            string? userName = Console.ReadLine();
 
             Console.WriteLine("How old are you?");
-            string userAge = Console.ReadLine();
+            string? userAge = Console.ReadLine();
 
             Console.WriteLine("What is a name for a dog?");
-            string userDogName = Console.ReadLine();
+            string? userDogName = Console.ReadLine();
 
             Console.WriteLine("What color is the dog?");
-            string userDogColor = Console.ReadLine();
+            string? userDogColor = Console.ReadLine();
 
             Console.WriteLine($"There once was a person named {userName}, they were {userAge} years old.");
             Console.WriteLine($"They had a {userDogColor} dog named {userDogName}.");
